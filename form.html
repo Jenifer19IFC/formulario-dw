@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1><title>Physical contrata instrutor!</title></h1>
+</head>
+        <body>
+            <h1><legend>Physical contrata instrutor!</legend></h1>
+            <h4><u>Academia Physical contrata instrutor com experiência.</u></h4>
+            <h4>Horário de trabalho:</h4>
+            <h4>-- De segunda à sexta: 14:00 às 21:00;</h4>
+            <h4>-- Sábado: 14:00 às 17:00.</h4>
+            <h4>Localização: Rua Presidente Nereu, 677 - Centro, Ituporanga - SC</h4>
+            <h4>Salário a combinar.</h4>
+            <h4><mark>Preencha o formulário abaixo para candidatar-se</mark></h4>
+            <form action="http://curvello.com/yoda.php" method="POST">
+                <fieldset>
+                    <h2>Formulário de Candidatura:</h2>
+                    <br>
+                    <label for ="Nome">Nome completo</label>
+                    <input name="Nome" id="Nome">
+                    <br>
+                    <label for= E-mail>E-mail</label> 
+                    <input type="email" name= "email" id= "email" placeholder="Insira o email">
+                    <br> 
+                    <h4>Telefone para contato:</h4>
+                    <input type="tel" name="Telefone" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx">
+                    <h4>Data de nascimento:</h4>
+                    <input type="date" name="Data">
+                    <br>
+                    <h4>Sexo:</h4>
+                    <input type="radio" name="Sexo" value="F">Feminino
+                    <br>
+                    <input type="radio" name="Sexo" value="M">Masculino
+                    <br>
+                    <h4>Situação atual de emprego:</h4>
+                    <input type="radio" name="Situação" value="Empregado(a)">Empregado(a)
+                    <br>
+                    <input type="radio" name="Situação" value="Desempregado(a)">Desempregado(a)
+                    <br>
+                    <input type="radio" name="Situação"value="Estudante">Estudante
+                    <br>
+                    <input type="radio" name="Situação"value="Autônomo(a)">Autônomo(a)
+                    <br>
+                    <h4>Envie seu currículo</h4>
+                    <input type="file" name="Curriculo"> 
+                    <br>
+                    <p></p>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+    </body>
+</html>
